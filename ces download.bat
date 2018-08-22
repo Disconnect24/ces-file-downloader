@@ -1,7 +1,7 @@
 @echo off
-echo starting powershell
+echo Starting PowerShell...
 powershell -c >NUL
-echo downloading check mii out channel ces files..
+echo Downloading the Check Mii Out Channel's CES files...
 call powershell -command "(new-object System.Net.WebClient).DownloadFile('"http://miicontest.wapp.wii.com/first/0.ces"', '0.ces"')"
 call powershell -command "(new-object System.Net.WebClient).DownloadFile('"http://miicontest.wapp.wii.com/first/1.ces"', '1.ces"')"
 call powershell -command "(new-object System.Net.WebClient).DownloadFile('"http://miicontest.wapp.wii.com/first/2.ces"', '2.ces"')"
@@ -258,5 +258,5 @@ call powershell -command "(new-object System.Net.WebClient).DownloadFile('"http:
 call powershell -command "(new-object System.Net.WebClient).DownloadFile('"http://miicontest.wapp.wii.com/first/253.ces"', '253.ces"')"
 call powershell -command "(new-object System.Net.WebClient).DownloadFile('"http://miicontest.wapp.wii.com/first/254.ces"', '254.ces"')"
 call powershell -command "(new-object System.Net.WebClient).DownloadFile('"http://miicontest.wapp.wii.com/first/255.ces"', '255.ces"')"
-echo download complite press any key to exit
+echo Download complete! Press any key to exit.
 pause>NUL
